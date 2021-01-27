@@ -1,0 +1,23 @@
+<div class="c-stars">
+    <fa-icon *ngIf="rating <= 0.25" [icon]="faStarEmpty"></fa-icon>
+    <fa-icon *ngIf="rating > 0.25 && rating <= 0.75" [icon]="faStarHalf"></fa-icon>
+    <fa-icon *ngIf="rating > 0.75" [icon]="faStarFull"></fa-icon>
+
+    <fa-icon *ngIf="rating <= 1.25" [icon]="faStarEmpty"></fa-icon>
+    <fa-icon *ngIf="rating > 1.25 && rating <= 1.75" [icon]="faStarHalf"></fa-icon>
+    <fa-icon *ngIf="rating > 1.75" [icon]="faStarFull"></fa-icon>
+
+    <fa-icon *ngIf="rating <= 2.25" [icon]="faStarEmpty"></fa-icon>
+    <fa-icon *ngIf="rating > 2.25 && rating <= 2.75" [icon]="faStarHalf"></fa-icon>
+    <fa-icon *ngIf="rating > 2.75" [icon]="faStarFull"></fa-icon>
+
+    <fa-icon *ngIf="rating <= 3.25" [icon]="faStarEmpty"></fa-icon>
+    <fa-icon *ngIf="rating > 3.25 && rating <= 3.75" [icon]="faStarHalf"></fa-icon>
+    <fa-icon *ngIf="rating > 3.75" [icon]="faStarFull"></fa-icon>
+
+    <fa-icon *ngIf="rating <= 4.25" [icon]="faStarEmpty"></fa-icon>
+    <fa-icon *ngIf="rating > 4.25 && rating <= 4.75" [icon]="faStarHalf"></fa-icon>
+    <fa-icon *ngIf="rating > 4.75" [icon]="faStarFull"></fa-icon>
+
+    <small class="c-stars__rating-text">{{rating}}</small>
+</div>

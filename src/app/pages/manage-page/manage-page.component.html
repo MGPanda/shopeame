@@ -1,0 +1,28 @@
+<div class="c-card">
+    <h5 class="c-card__header">Creación / edición de productos</h5>
+    <div class="c-card__content row">
+        <form [formGroup]="addItemForm" (ngSubmit)="addItem()" class="c-card__form col-lg-6">
+            <label>Nombre del producto:</label>
+            <input type="text" placeholder="Por ej: Tiesto para planta" formControlName="name" [(ngModel)]="formName" (ngModelChange)="updateItem()">
+            <label>Precio:</label>
+            <input type="text" placeholder="Por ej: 9.50" formControlName="price" [(ngModel)]="formPrice" (ngModelChange)="updateItem()">
+            <label>Descripción:</label>
+            <input type="text" placeholder="Por ej: Lo más vendido este mes" formControlName="description" [(ngModel)]="formDescription" 
+            (ngModelChange)="updateItem()">
+            <label>Ruta de la imagen:</label>
+            <input type="text" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="image" [(ngModel)]="formImage" (ngModelChange)="updateItem()">
+            <label>Opiniones:</label>
+            <input type="text" placeholder="Por ej: 4.28" formControlName="stars" [(ngModel)]="formStars" (ngModelChange)="updateItem()">
+            <button class="c-card__button" (click)="addItem()">Guardar</button>
+        </form>
+        
+        <div class="c-card__vertical-line d-none d-lg-block"></div>
+
+        <div class="c-card__preview col-lg-5">
+            <small>Preview del producto:</small>
+            <app-item-card [item]="item" [showInGallery]="false"></app-item-card>
+        </div>
+
+
+    </div>
+</div>

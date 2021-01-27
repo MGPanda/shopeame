@@ -1,0 +1,11 @@
+<div class="c-item-card">
+    <img src="{{item.image}}" alt="{{item.name}}">
+    <p>{{item.name}}</p>
+    <h5 class="c-item-card__price">$ {{item.price}}</h5>
+    <small class="c-item-card__description">{{item.description}}</small>
+    <div class="c-item-card__rating-row">
+        <app-stars [rating]="item.stars"></app-stars>
+        <button *ngIf="showInGallery" class="c-item-card__edit-button">Editar</button>
+    </div>
+    
+</div>

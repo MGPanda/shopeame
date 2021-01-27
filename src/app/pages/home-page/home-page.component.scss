@@ -1,0 +1,16 @@
+.c-card {
+  &__header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 150%;
+  }
+
+  &__subtitle {
+    font-weight: bold;
+  }
+
+  &__text-block {
+    margin-top: 9.5rem;
+  }
+}

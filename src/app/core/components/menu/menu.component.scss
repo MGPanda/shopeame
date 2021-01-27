@@ -1,0 +1,69 @@
+.c-upper-menu {
+  background-color: var(--color-white);
+  font-family: var(--font-family-titles);
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  * {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__logo {
+    font-size: 4rem;
+    background: linear-gradient(
+      90deg,
+      var(--color-gradient-upper) 0%,
+      var(--color-gradient-lower) 100%
+    );
+    border-radius: 6px;
+    color: var(--color-white);
+    line-height: 4.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    margin-right: 1.5rem;
+  }
+
+  &__name {
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    color: var(--color-black);
+    text-decoration: none;
+  }
+}
+
+.c-lower-menu {
+  background-color: var(--color-secondary);
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__button {
+    margin: 0 0.5rem;
+    display: flex;
+    height: 7rem;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .router-link-active {
+    color: var(--color-primary);
+    background-color: rgba(var(--color-silver-rgb), 0.3);
+    border-radius: 10px;
+  }
+}

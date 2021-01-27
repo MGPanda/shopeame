@@ -1,0 +1,21 @@
+<header class="c-upper-menu">
+    <h1 class="c-upper-menu__logo" [routerLink]="['/']" routerLinkActive="router-link-active">S</h1>
+    <h1 class="c-upper-menu__name" [routerLink]="['/']" routerLinkActive="router-link-active">Shopéame!</h1>
+</header>
+
+<nav class="c-lower-menu">
+    <div class="c-lower-menu__button" [routerLink]="['/']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}">
+        <fa-icon [icon]="faRadiation"></fa-icon>
+        <small>Home</small>
+    </div>
+
+    <div class="c-lower-menu__button" [routerLink]="['/products']" routerLinkActive="router-link-active">
+        <fa-icon [icon]="faBinoculars"></fa-icon>
+        <small>Prods.</small>
+    </div>
+
+    <div class="c-lower-menu__button" [routerLink]="['/manage']" routerLinkActive="router-link-active">
+        <fa-icon [icon]="faDharmachakra"></fa-icon>
+        <small>Gestión</small>
+    </div>
+</nav>

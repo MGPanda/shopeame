@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "shopeame"
+  "defaultProject": "shopeame",
+  "cli": {
+    "analytics": "4852991c-6d8f-4da0-b9b4-8203f39730e0"
+  }
 }

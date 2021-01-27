@@ -1,0 +1,28 @@
+.c-item-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__description {
+    color: var(--color-gray);
+  }
+
+  &__price {
+    font-size: 3rem;
+  }
+
+  &__rating-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__edit-button {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+}
