@@ -3,19 +3,18 @@
     <div class="c-card__content row">
         <form [formGroup]="addItemForm" (ngSubmit)="addItem()" class="c-card__form col-lg-6">
             <label>Nombre del producto:</label>
-            <input type="text" placeholder="Por ej: Tiesto para planta" formControlName="name" [(ngModel)]="formName" (ngModelChange)="updateItem()">
+            <input type="text" placeholder="Por ej: Tiesto para planta" formControlName="name">
             <label>Precio:</label>
-            <input type="text" placeholder="Por ej: 9.50" formControlName="price" [(ngModel)]="formPrice" (ngModelChange)="updateItem()">
+            <input type="text" placeholder="Por ej: 9.50" formControlName="price">
             <label>Descripción:</label>
-            <input type="text" placeholder="Por ej: Lo más vendido este mes" formControlName="description" [(ngModel)]="formDescription" 
-            (ngModelChange)="updateItem()">
+            <input type="text" placeholder="Por ej: Lo más vendido este mes" formControlName="description">
             <label>Ruta de la imagen:</label>
-            <input type="text" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="image" [(ngModel)]="formImage" (ngModelChange)="updateItem()">
+            <input type="text" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="image">
             <label>Opiniones:</label>
-            <input type="text" placeholder="Por ej: 4.28" formControlName="stars" [(ngModel)]="formStars" (ngModelChange)="updateItem()">
-            <button class="c-card__button" (click)="addItem()">Guardar</button>
+            <input type="text" placeholder="Por ej: 4.28" formControlName="stars">
+            <button class="c-card__button">Guardar</button>
         </form>
-        
+
         <div class="c-card__vertical-line d-none d-lg-block"></div>
 
         <div class="c-card__preview col-lg-5">

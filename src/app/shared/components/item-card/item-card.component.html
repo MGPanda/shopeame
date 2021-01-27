@@ -1,11 +1,27 @@
 <div class="c-item-card">
-    <img src="{{item.image}}" alt="{{item.name}}">
-    <p>{{item.name}}</p>
-    <h5 class="c-item-card__price">$ {{item.price}}</h5>
-    <small class="c-item-card__description">{{item.description}}</small>
-    <div class="c-item-card__rating-row">
+    <div class="c-item-card__show">
+      <div *ngIf="showInGallery" (click)="deleteItem()" class="c-item-card__remove-item">X</div>
+      <img src="{{item.image}}" alt="{{item.name}}">
+      <p>{{item.name}}</p>
+      <h5 class="c-item-card__price">$ {{item.price}}</h5>
+      <small class="c-item-card__description">{{item.description}}</small>
+      <div class="c-item-card__rating-row">
         <app-stars [rating]="item.stars"></app-stars>
-        <button *ngIf="showInGallery" class="c-item-card__edit-button">Editar</button>
+        <button *ngIf="showInGallery" class="c-item-card__edit-button" (click)="isEditing = true">Editar</button>
+      </div>
     </div>
-    
+
+    <div *ngIf="isEditing" class="c-item-card__edit">
+      <form [formGroup]="editItemForm" (ngSubmit)="modifyItem()" class="c-card__form col-lg-6">
+        <label>
+          <input type="text" placeholder="Por ej: Tiesto para planta" formControlName="name">
+        </label>
+        <input type="text" placeholder="Por ej: 9.50" formControlName="price">
+        <input type="text" placeholder="Por ej: Lo más vendido este mes" formControlName="description">
+        <input type="text" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="image">
+        <input type="text" placeholder="Por ej: 4.28" formControlName="stars">
+        <button class="c-card__button">Guardar</button>
+      </form>
+    </div>
+
 </div>

@@ -1,10 +1,10 @@
-import { SharedModule } from './../../shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ManagePageRoutingModule } from './manage-page-routing.module';
 import { ManagePageComponent } from './manage-page.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +13,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     ManagePageRoutingModule,
     SharedModule,
-    FormsModule,
     ReactiveFormsModule
   ]
 })

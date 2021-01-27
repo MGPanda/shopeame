@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Zapatos Vintage",
+      "name": "Zapatoes Vintage",
       "price": 49.99,
       "description": "Bellos zapatos antiguos para Hipsters.",
       "stars": 4.5,
@@ -63,54 +63,6 @@
       "description": "No sé si es legal vender animales online...",
       "stars": 3,
       "image": "https://i.ibb.co/1zPPBjx/gato.jpg"
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 9
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 10
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 11
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 12
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 13
-    },
-    {
-      "image": "https://holatelcel.com/wp-content/uploads/2018/11/HEAD-Shrek-reboot.jpg",
-      "name": "Brand New 2020 Shrek Available Fresh Trump Destroyer",
-      "price": 18.5,
-      "description": "El deber de Dios es perdonar a los pinches furros. ¿Cual es el mío? Enviárselos.",
-      "stars": 4.5,
-      "id": 14
     }
   ]
 }
