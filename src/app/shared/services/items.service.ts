@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ItemsService {
 
-  url = 'http://localhost:3000/products';
+  url = 'https://my-json-server.typicode.com/MGPanda/shopeamedb/products';
 
   constructor(private http: HttpClient) { }
 

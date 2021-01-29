@@ -1,22 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Zapatoes Vintage",
-      "price": 49.99,
-      "description": "Bellos zapatos antiguos para Hipsters.",
-      "stars": 4.5,
-      "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Máquina de escribir",
-      "price": 109.99,
-      "description": "Bonita máquina de escribir antigua.",
-      "stars": 4.2,
-      "image": "https://i.ibb.co/84zfbz0/maquina.jpg"
-    },
-    {
       "id": 3,
       "name": "Lapiceros de colores",
       "price": 1.99,
@@ -63,6 +47,14 @@
       "description": "No sé si es legal vender animales online...",
       "stars": 3,
       "image": "https://i.ibb.co/1zPPBjx/gato.jpg"
+    },
+    {
+      "image": "https://imgv2-2-f.scribdassets.com/img/document/286122775/149x198/0a7a4951e5/1445370839?v=1",
+      "name": "Meme",
+      "price": "9.50",
+      "description": "Shrek",
+      "stars": "4.5",
+      "id": 9
     }
   ]
 }
